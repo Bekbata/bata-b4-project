@@ -6,4 +6,8 @@ public class Main {
         System.out.println("bata's project?");
         // write your code here
     }
+    public  static String revStr (String str){
+        return new StringBuilder(str).reverse().toString();
+
+    }
 }
